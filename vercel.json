@@ -8,12 +8,5 @@
       "runtime": "nodejs18.x"
     }
   },
-  "env": {
-    "REPLICATE_API_TOKEN": "@replicate_api_token"
-  },
-  "build": {
-    "env": {
-      "REPLICATE_API_TOKEN": "@replicate_api_token"
-    }
-  }
+
 }
