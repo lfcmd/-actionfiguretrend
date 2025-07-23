@@ -2,6 +2,34 @@
 
 A modern, professional SaaS application that transforms any photo into stunning collectible action figures using cutting-edge AI technology. Built with Next.js 14, TypeScript, and Tailwind CSS.
 
+## 🚀 Live Demo
+
+Visit the live application: [Action Figure Trend](https://actionfiguretrend.vercel.app)
+
+## 📦 Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/lfcmd/-actionfiguretrend)
+
+### Quick Deploy Steps:
+
+1. **Fork this repository** to your GitHub account
+2. **Connect to Vercel**:
+   - Go to [vercel.com](https://vercel.com)
+   - Sign in with your GitHub account
+   - Click "New Project"
+   - Import your forked repository
+3. **Set Environment Variables**:
+   - Add `REPLICATE_API_TOKEN` with your Replicate API key
+4. **Deploy**: Vercel will automatically build and deploy your app
+
+### Environment Variables Required:
+
+```env
+REPLICATE_API_TOKEN=your_replicate_api_token_here
+```
+
+Get your Replicate API token from [https://replicate.com/account/api-tokens](https://replicate.com/account/api-tokens)
+
 ## ✨ Features
 
 ### 🚀 Core Functionality
