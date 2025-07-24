@@ -78,7 +78,7 @@ function buildPrompt(style: any) {
   // Add accessories with more detailed descriptions and emphasis
   if (accessories && accessories.length > 0) {
     // Create detailed accessory descriptions with positioning hints
-    const accessoryDescriptions = accessories.map((accessory, index) => {
+    const accessoryDescriptions = accessories.map((accessory: string, index: number) => {
       const position = index === 0 ? 'prominently' : index === 1 ? 'clearly' : 'visibly'
       
       switch(accessory.toLowerCase()) {
@@ -164,9 +164,9 @@ function buildEnhancedPrompt(style: any, primaryPrompt: string) {
     enhancedPrompt += `. MANDATORY REQUIREMENTS: This action figure MUST include ALL ${accessories.length} accessories without exception: ${accessories.join(', ')}. Each accessory must be clearly visible, properly scaled, and positioned logically on the figure`
     
     // Add specific positioning guidance for each accessory type
-    const positioningInstructions = []
+    const positioningInstructions: string[] = []
     
-    accessories.forEach(accessory => {
+    accessories.forEach((accessory: string) => {
       switch(accessory.toLowerCase()) {
         case 'guitar':
           positioningInstructions.push('Guitar must be held in both hands or strapped across body')
