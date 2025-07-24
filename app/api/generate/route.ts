@@ -7,6 +7,14 @@ const replicate = new Replicate({
 
 export async function POST(request: NextRequest) {
   try {
+    // Check if API token is configured
+    if (!process.env.REPLICATE_API_TOKEN) {
+      console.error('REPLICATE_API_TOKEN is not configured')
+      return NextResponse.json({ 
+        success: false, 
+        error: 'Service configuration error. Please try again later.' 
+      }, { status: 500 })
+    }
     const { image, style } = await request.json()
     
     // Validate input
