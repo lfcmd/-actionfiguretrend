@@ -5,6 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://actionfiguretrend.vercel.app'),
   title: 'Action Figure Trend - Create Custom Action Figures with AI',
   description: 'Transform any photo into stunning collectible action figures using cutting-edge AI technology. Professional quality, unlimited creativity.',
   keywords: 'AI, action figures, photo transformation, collectibles, custom figures, AI art',
