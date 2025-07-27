@@ -6,16 +6,16 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://actionfiguretrend.vercel.app'),
-  title: 'Action Figure Trend - Create Custom Action Figures with AI',
-  description: 'Transform any photo into stunning collectible action figures using cutting-edge AI technology. Professional quality, unlimited creativity.',
-  keywords: 'AI, action figures, photo transformation, collectibles, custom figures, AI art',
+  title: 'Create Custom Action Figures trend with AI Technology',
+  description: 'Transform your photos into stunning collectible action figures with AI. Join 50K+ creators and enjoy unlimited customization! Start creating now!',
+  keywords: 'AI action figures trend, create custom figures, photo to figure transformation, collectible action figures, professional quality figures, unlimited customization options, 4K resolution figures, fast figure generation',
   authors: [{ name: 'Action Figure Trend Team' }],
   creator: 'Action Figure Trend',
   publisher: 'Action Figure Trend',
   openGraph: {
-    title: 'Action Figure Trend - Create Custom Action Figures with AI',
-    description: 'Transform any photo into stunning collectible action figures using cutting-edge AI technology.',
-    url: 'https://actionfiguretrend.com',
+    title: 'Create Custom Action Figures trend with AI Technology',
+    description: 'Transform your photos into stunning collectible action figures with AI. Join 50K+ creators and enjoy unlimited customization! Start creating now!',
+    url: 'https://actionfiguretrend.vercel.app',
     siteName: 'Action Figure Trend',
     images: [
       {
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Action Figure Trend - Create Custom Action Figures with AI',
-    description: 'Transform any photo into stunning collectible action figures using cutting-edge AI technology.',
+    title: 'Create Custom Action Figures trend with AI Technology',
+    description: 'Transform your photos into stunning collectible action figures with AI. Join 50K+ creators and enjoy unlimited customization! Start creating now!',
     images: ['/og-image.jpg'],
     creator: '@actionfiguretrend',
   },
